@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="base.css">
+    <script src="bancodedados.js" defer></script>
+    <link rel="shortcut icon" href="./dado.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados</title>
+</head>
+<body>
+    <header>
+        <h1>Banco de Dados</h1>
+        <br><br>
+        <a>Seja Bem-Vindo ao nosso Banco de Dados</a>
+    </header>
+
+    <div class="corpo2">
+        <a>Aqui você pode acessar o último pedido enviado</a><br><br>
+        <a href="index.html">Página Principal</a><br><br>
+
+        <table class="tabela">
+            <tr>
+              <th>Código</th>
+              <th>Cliente</th>
+              <th>Sistema</th>
+              <th>Módulo</th>
+              <th>Manutenção</th>
+              <th>Tempo</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td><label id="codigo"></label></td>
+              <td><label id="cliente"></label></td>
+              <td><label id="sistema"></label></td>
+              <td><label id="modulo"></label></td>
+              <td><label id="manutenção"></label></td>
+              <td><label id="tempo"></label></td>
+              <td><label id="status"></label></td>
+            </tr>
+          </table><br><br>
+          
+
+        <!-- Botões -->
+
+        <button id="mostrar">Ver último Pedido</button><br><br>
+        <select name="statusatual" id="statusatual">
+          <option value="">-Status-
+          </option>
+          <option value="Visto">Visto</option>
+          <option value="Concluída">Concluída</option>
+          <option value="Aberto">Aberto</option>
+      </select>
+        <button id="visto">Marcar</button><br><br>
+          
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <link rel="shortcut icon" href="./dado.png" type="image/x-icon">
+    <script src="home.js" defer></script>
+    <title>Ajuda</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Bem-Vindo</h1>
+        <br><br>
+        <a>Seja Bem-Vindo ao nosso sitema de apoio ao cliente</a>
+    </header>
+    <div class="corpo">
+
+        <!-- Cabeçalho -->
+
+        <div class="leftside">
+        <h2>
+            Responda os campos a seguir
+        </h2>
+        <br><br>
+
+        <!-- Nome do Cliente -->
+
+        <a>Informe o Nome do Cliente</a><br>
+        <input class="input" id="cliente" type="text"><br>
+
+        <!-- Tipo do Sistema -->
+
+        <a>Informe o Sistema</a><br>
+        <select name="sistema" id="sistema">
+            <option value="">-Tipo-
+            </option>
+            <option value="Operacional">Operacional</option>
+            <option value="Gerencial">Gerencial</option>
+            <option value="Estratétigo">Estratétigo</option>
+        </select><br>
+
+        <!-- Tipo do Módulo -->
+
+        <a>Informe o Módulo</a><br>
+        <select name="modulo" id="modulo">
+            <option value="">-Tipo-
+            </option>
+            <option value="Cadastro">Cadastro</option>
+            <option value="Vendas">Vendas</option>
+            <option value="Mapa">Mapa</option>
+            <option value="Contato">Contato</option>
+        </select><br>
+
+        <!-- Tipo de Manutenção -->
+
+        <a>Informe o Tipo de Manutenção</a><br>
+        <select name="manutenção" id="manutenção">
+            <option value="">-Tipo-
+            </option>
+            <option value="Adaptativa">Adaptativa</option>
+            <option value="Corretiva">Corretiva</option>
+            <option value="Evolutiva">Evolutiva</option>
+            <option value="Preventiva">Preventiva</option>
+        </select><br><br>
+
+        <!-- botões -->
+
+        <button id="solicitar">Solicitar</button><br>    
+        <button id="limpar">Limpar Dados</button><br>
+        <a href="bancodedados.html">Banco de Dados</a>
+        </div>
+        
+        <!----------------------------------------------------->
+
+        <div class="rightside">
+            <label id="res"></label>
+        </div>
+    </div>
+
+</body>
+</html>
